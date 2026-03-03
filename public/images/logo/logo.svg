@@ -1,0 +1,10 @@
+<svg width="180" height="38" viewBox="0 0 180 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon mark -->
+  <rect x="0" y="4" width="30" height="30" rx="8" fill="#059669"/>
+  <path d="M15 10 L22 19 L15 28 L8 19 Z" fill="white" opacity="0.9"/>
+  <circle cx="15" cy="19" r="4" fill="white"/>
+  <!-- Venje text -->
+  <text x="38" y="27" font-family="'DM Sans', sans-serif" font-weight="700" font-size="20" fill="#102D47">Venje</text>
+  <!-- Realty text -->
+  <text x="96" y="27" font-family="'DM Sans', sans-serif" font-weight="400" font-size="20" fill="#059669">Realty</text>
+</svg>
