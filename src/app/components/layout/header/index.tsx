@@ -69,7 +69,7 @@ const Header: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('/api/layoutdata')
+        const res = await fetch('/venje-realty/api/layoutdata.json')
         if (!res.ok) throw new Error('Failed to fetch')
 
         const data = await res.json()

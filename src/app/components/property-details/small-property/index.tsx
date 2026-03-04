@@ -7,7 +7,7 @@ const [data, setData] = useState<any[]>([]);
     useEffect(() => {
             const fetchData = async () => {
                 try {
-                    const res = await fetch('/api/pagedata')
+                    const res = await fetch('/venje-realty/api/pagedata.json')
                     if (!res.ok) throw new Error('Failed to fetch')
     
                     const data = await res.json()

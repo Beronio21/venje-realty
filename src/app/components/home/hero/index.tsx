@@ -17,7 +17,7 @@ const Hero = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('/api/propertydata')
+        const res = await fetch('/venje-realty/api/propertydata.json')
         if (!res.ok) throw new Error('Failed to fetch')
         const data = await res.json()
         setPropertiesData(data || [])

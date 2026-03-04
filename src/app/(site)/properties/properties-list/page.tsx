@@ -2,6 +2,8 @@ import React from 'react';
 import { Metadata } from "next";
 import AdvanceSearch from '@/app/components/property-list/search';
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Properties List",
 };

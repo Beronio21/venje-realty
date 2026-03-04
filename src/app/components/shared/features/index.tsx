@@ -10,8 +10,8 @@ export default function Features() {
         const fetchData = async () => {
             try {
                 const [resProperties, resPage] = await Promise.all([
-                    fetch('/api/propertydata'),
-                    fetch('/api/pagedata'),
+                    fetch('/venje-realty/api/propertydata.json'),
+                    fetch('/venje-realty/api/pagedata.json'),
                 ]);
 
                 if (!resProperties.ok || !resPage.ok) {
